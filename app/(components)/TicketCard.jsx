@@ -18,8 +18,10 @@ const TicketCard = () => {
         This is the ticket description. Please do this ticket.
       </p>
       <div className="flex-grow"></div>
-      <div>
-        <ProgressDisplay />
+      <div className="flex mt-2">
+        <div>
+          <ProgressDisplay />
+        </div>
         <StatusDisplay />
       </div>
     </div>
